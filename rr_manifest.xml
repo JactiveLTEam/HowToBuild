@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remove-project name="packages_apps_ResurrectionOTA"  />
+	<remove-project name="packages_apps_ResurrectionStats" />
+	<remove-project name="LineageOS/android_packages_apps_Settings" />
+	<project name="JactiveLTEam/android_device_samsung_jactivelte"     path="device/samsung/jactivelte" remote="github" revision="cm-14.1" />
+	<project name="JactiveLTEam/android_device_samsung_jf-common"      path="device/samsung/jf-common" remote="github" revision="cm-14.1" />
+	<project name="JactiveLTEam/android_kernel_samsung_jf"             path="kernel/samsung/jf" remote="github" revision="cm-14.1" />
+	<project name="JactiveLTEam/android_packages_apps_Settings"        path="packages/apps/Settings" remote="github" revision="cm-14.1" />
+	<project name="JactiveLTEam/proprietary_vendor_samsung"            path="vendor/samsung" remote="github" revision="cm-14.1" />
+	<project name="LineageOS/android_device_qcom_common"           path="device/qcom/common" remote="github"  revision="cm-14.1" />
+	<project name="LineageOS/android_device_samsung_qcom-common"   path="device/samsung/qcom-common" remote="github" revision="cm-14.1" />
+	<project name="LineageOS/android_external_stlport"             path="external/stlport" remote="github" revision="cm-14.1" />
+	<project name="LineageOS/android_hardware_samsung"             path="hardware/samsung" remote="github" revision="cm-14.1" />
+	<project name="LineageOS/hudson" 							   path="hudson" remote="github" revision="master" />
+	<project name="LineageOS/android_packages_resources_devicesettings"  path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
+	<project name="ant-wireless/Android_ANTRadioService"           path="external/ant-wireless/ANTRadioService" remote="github" revision="master"/>
+	<project name="TheMuppets/proprietary_vendor_qcom_binaries"    path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
+</manifest>
+
+<!-- If there are duplicates, just comment them. The build will not be affected-->
